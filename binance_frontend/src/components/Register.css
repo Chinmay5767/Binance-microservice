@@ -1,0 +1,107 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.register-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+}
+
+.register-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 5px;
+}
+
+.register-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.register-box .form-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.register-box .form-control {
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.register-box .form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.register-box .btn-primary {
+  background-color: #667eea;
+  border-color: #667eea;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-box .btn-primary:hover {
+  background-color: #5568d3;
+  border-color: #5568d3;
+}
+
+.register-box .btn-link {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-box .btn-link:hover {
+  color: #5568d3;
+  text-decoration: underline;
+}
+
+.register-box hr {
+  margin: 25px 0;
+  border-color: #e0e0e0;
+}
+
+.register-box .text-center {
+  font-size: 14px;
+}
+
+.alert {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.register-box .text-muted {
+  font-size: 12px;
+}
