@@ -86,14 +86,6 @@ Binance-microservice/
 └── README.md
 ```
 
-## API Documentation
-
-[Add your API endpoints and documentation here]
-
-## Usage Examples
-
-[Add usage examples for your microservices]
-
 ## Testing
 
 ```bash
@@ -106,17 +98,10 @@ cd frontend
 npm test
 ```
 
-## Deployment
-
-[Add deployment instructions for your microservices]
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Add your license information here]
 
 ## Contact
 
